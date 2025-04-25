@@ -1,0 +1,42 @@
+.clock {
+    padding: 21px 0;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        .block {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+            background-color: whitesmoke;
+            margin: 36px auto;
+            padding: 36px;
+            border: 3px solid darkslategrey;
+            border-radius: 15px;
+        
+            .clockText {
+                font-size: 24px;
+                font-weight: 500;
+                color: darkslategrey;
+            }
+        
+            .clockTime {
+                margin-top: 12px;
+                font-size: 36px;
+                font-weight: 700;
+                color: darkslategrey;
+            }
+
+            .message {
+                margin-top: 15px;
+                font-size: 21px;
+                font-weight: 500;
+                color: darkslategrey;
+                font-style: italic;
+            }
+        }
+    }
+}

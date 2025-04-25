@@ -1,0 +1,19 @@
+.greeting {
+    padding: 21px 0;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        .text {
+            font-size: 24px;
+            font-weight: 400;
+            color: darkslategrey;
+        
+            .name {
+                font-weight: 500;
+                font-style: italic;
+            }
+        }
+    }
+}
